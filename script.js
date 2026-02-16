@@ -70,3 +70,20 @@
   const saved = localStorage.getItem("silken_lang");
   setLang(saved || "zh");
 })();
+// ===== Load purchase links (future use) =====
+async function loadPurchaseLinks() {
+  try {
+    const response = await fetch('/data/links.json');
+    const links = await response.json();
+
+    console.log("Purchase links loaded:", links);
+
+    // 现在不渲染按钮
+    // 未来当链接不为 null 时再生成按钮
+
+  } catch (error) {
+    console.log("No purchase link data yet.");
+  }
+}
+
+loadPurchaseLinks();
