@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Silken 思肯｜海外消费品牌的中国本土合伙人。品牌门户：Brok / Van Pur / Solveza。合规优先、数据驱动、结果导向。" />
+  <title>Silken 思肯｜品牌门户</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">
+      <div class="brand__mark" aria-hidden="true">S</div>
+      <div class="brand__text">
+        <div class="brand__name">SILKEN</div>
+        <div class="brand__sub">Your Strategic Gateway to China</div>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr-only">Toggle Menu</span>
+        <span class="nav__bars" aria-hidden="true"></span>
+      </button>
+      <div class="nav__menu" id="navMenu">
+        <a href="index.html" class="nav__link" data-i18n="nav.home">首页</a>
+        <a href="index.html#about" class="nav__link" data-i18n="nav.about">关于思肯</a>
+        <a href="index.html#portfolio" class="nav__link" data-i18n="nav.portfolio">品牌门户</a>
+        <a href="index.html#services" class="nav__link" data-i18n="nav.services">服务模块</a>
+        <a href="index.html#contact" class="nav__link nav__link--cta" data-i18n="nav.contact">联系</a>
+        <div class="lang" style="margin-left:6px">
+          <button class="lang__btn" type="button" data-lang="zh" aria-pressed="true">中文</button>
+          <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero__inner">
+      <div>
+        <h1 class="hero__title" data-i18n="hero.title">思肯｜品牌入华与增长的中国本土合伙人</h1>
+        <p class="hero__lead" data-i18n="hero.lead">面向海外消费品牌与中国消费者的双向门户：对外提供合规与增长方案，对内承接品牌资产、渠道与内容落地。</p>
+        <div class="hero__pills">
+          <span class="pill" data-i18n="hero.p1">合规优先</span>
+          <span class="pill" data-i18n="hero.p2">数据驱动</span>
+          <span class="pill" data-i18n="hero.p3">结果导向</span>
+        </div>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#portfolio" data-i18n="hero.cta1">查看品牌</a>
+          <a class="btn btn--ghost" href="#about" data-i18n="hero.cta2">了解思肯</a>
+        </div>
+        <div class="breadcrumb">提示：本网站为静态站点，可直接部署到 Netlify。</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel__title">2026 Portfolio</div>
+        <p class="panel__text">Brok / Van Pur / Solveza —— 三条互补的消费决策路径：稳定主义、修道院体系、情绪社交。</p>
+        <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap">
+          <span class="badge"><span class="badge__dot"></span>BROK</span>
+          <span class="badge"><span class="badge__dot"></span>VAN PUR</span>
+          <span class="badge"><span class="badge__dot"></span>SOLVEZA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section section--muted">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" data-i18n="portal.title">2026 代理品牌｜面向消费者的品牌门户</h2>
+        <p class="section__desc" data-i18n="portal.desc">三条不同的选择逻辑：稳定主义（Brok）｜修道院体系（Van Pur）｜情绪社交（Solveza）。</p>
+      </div>
+
+      <div class="grid grid--3">
+        <a class="card" href="brands/brok.html">
+          <img class="card__media" src="assets/brok_p01.jpg" alt="Brok cover"/>
+          <div class="card__body">
+            <div class="card__kicker">BROK</div>
+            <div class="card__title">致敬战略梦想家</div>
+            <p class="card__text">稳定主义的专业拉格：克制、判断力、一致性体验。适合长期复购与渠道稳定。</p>
+          </div>
+        </a>
+
+        <a class="card" href="brands/vanpur.html">
+          <img class="card__media" src="assets/vanpur_p01.jpg" alt="Van Pur cover"/>
+          <div class="card__body">
+            <div class="card__kicker">VAN PUR</div>
+            <div class="card__title">欧洲大师系列</div>
+            <p class="card__text">修道院体系的现代化表达：时间、秩序、稳定可饮。面向精酿疲劳人群与餐饮渠道。</p>
+          </div>
+        </a>
+
+        <a class="card" href="brands/solveza.html">
+          <img class="card__media" src="assets/solveza_p01.jpg" alt="Solveza cover"/>
+          <div class="card__body">
+            <div class="card__kicker">SOLVEZA</div>
+            <div class="card__title">品悦生活 轻松相伴</div>
+            <p class="card__text">夏日灵感与社交情绪：阳光、颜色、轻松关系。适合内容扩散与活动场景。</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" data-i18n="about.title">思肯是谁？</h2>
+        <p class="section__desc" data-i18n="about.desc">思肯（Silken）定位为海外消费品牌的「中国本土合伙人（China Local Partner）」，覆盖品牌入华全生命周期：从准入与合规，到定位、渠道与转化。</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="panel">
+          <div class="panel__title">对海外品牌</div>
+          <p class="panel__text">用合规框架控制风险，用数据验证决策，用渠道与内容资产换取持续转化：先安全落地，再规模增长。</p>
+        </div>
+        <div class="panel">
+          <div class="panel__title">对中国消费者</div>
+          <p class="panel__text">让品牌“被看见、被理解、被选择”：用场景化内容与清晰的产品层级，降低选择成本，提升复购概率。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section--muted">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" data-i18n="services.title">我们如何把品牌落到中国？</h2>
+        <p class="section__desc" data-i18n="services.desc">五位一体：准入合规｜市场研究｜品牌中国化｜整合营销｜渠道落地。</p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="panel"><div class="panel__title">准入与合规</div><p class="panel__text">商标、标签、海关、备案路径规划。</p></div>
+        <div class="panel"><div class="panel__title">市场研究</div><p class="panel__text">消费者与竞品洞察，定价与渠道可行性。</p></div>
+        <div class="panel"><div class="panel__title">品牌中国化</div><p class="panel__text">中文命名、故事转译、产品组合与定价结构。</p></div>
+        <div class="panel"><div class="panel__title">整合营销</div><p class="panel__text">小红书/抖音/微信内容资产与传播策划。</p></div>
+        <div class="panel"><div class="panel__title">渠道落地</div><p class="panel__text">经销商对接、电商入驻与运营支持。</p></div>
+        <div class="panel"><div class="panel__title">展会执行</div><p class="panel__text">糖酒会/中食展等场景的招商与执行。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" data-i18n="contact.title">联系思肯</h2>
+        <p class="section__desc" data-i18n="contact.desc">合作洽谈 / 渠道对接 / 展会合作欢迎联系。</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="panel">
+          <div class="panel__title">公司信息</div>
+          <div class="kv"><div class="kv__k">公司</div><div class="kv__v">天津思肯品牌运营管理有限公司<br/>Tianjin Silken Commercial and Management Co., Ltd.</div></div>
+          <div class="kv"><div class="kv__k">地址</div><div class="kv__v">天津市北辰区青光镇高科20号楼1-012</div></div>
+          <div class="kv"><div class="kv__k">电话</div><div class="kv__v"><a href="tel:+862284881059">+86 22 8488 1059</a></div></div>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn btn--primary" href="tel:+862284881059">电话联系</a>
+            <a class="btn btn--ghost" href="#portfolio">查看品牌</a>
+          </div>
+        </div>
+        <div class="callout">
+          <div class="callout__title">Brand Portal Note</div>
+          <p class="callout__text">你可以在每个品牌页继续补充：购买渠道（天猫/京东/抖音）、社媒矩阵、小红书精选内容与活动日历。需要的话我可以把这些区块也写好并预留入口。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <div class="footer__brand">SILKEN</div>
+      <div class="footer__meta" data-i18n="footer.meta">合规优先 · 数据驱动 · 结果导向</div>
+    </div>
+    <div class="footer__links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#portfolio">Portfolio</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer__copy">© <span id="year"></span> Tianjin Silken Commercial and Management Co., Ltd.</div>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>
